@@ -1,0 +1,29 @@
+.reviewMain-box{
+    height: 60vh;
+    width: 100%;
+    background-color: aqua;
+}
+.reviews-boxes{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+    overflow-x: scroll;
+}
+.review-heading {
+    display: flex;
+    justify-content: center;
+}
+.review-heading p{
+    margin-top: 2%;
+    font-size: 22px;
+}
+.user-img{
+    height: 70px;
+    width: 70px;
+    background: rgb(126, 126, 214);
+    border-radius: 50%;
+    position: relative;
+    top: -35px;
+    left: 100px;
+    
+}
